@@ -216,15 +216,53 @@ table{
 }
 th{
 	height: 50px;
+	background-color: green;
+	color: white;
+}
+tr:hover{
+	background-color: blue;
+}
+tr:nth-child(even){
+	background-color: yellow;
+}
+#t01{
+	overflow-x: auto;
+}
+#d01{
+	width: 500px;
+	margin: auto;
+	border: 3px solid green;
+}
+#d02{
+	background: lightblue;
+	width: 200px;
+	height: 50px;
+	border: 2px dotted black;
+	overflow: visible;
 }
 
-
-
-
-
-
-
-
+#d03{
+background: lightblue;
+width: 300px;
+height: 50px;
+border: 2px double red;
+overflow: hidden;}
+#d04{
+background: lightblue;
+width: 300px;
+height: 50px;
+border: 2px dashed green;
+overflow:auto;
+}
+#d05
+{
+	background:lightblue;
+	width: 200px;
+	height: 50px;
+	border: 3px double dotted red;
+	overflow-x:hidden;
+	overflow-y: scroll;
+}
 
 
 
